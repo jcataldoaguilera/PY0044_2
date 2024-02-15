@@ -6,6 +6,22 @@ p {
 }
 
 /* Estilo por clase (nombre con punto) */
+/* uno o mas elementos se ven afectados */
+/* con la opcion !important le asignamos mayor prioridad al estilo*/
 .pverde{
     color: green;
+}
+.div1{
+    color: fuchsia;
+}
+
+/* Estilo por identificador (id) (nombre con #) */
+/* el atributo id se usa para dar estilo y funcionalidad */
+/* estilo solo a un elemento */
+#p4{
+    color: crimson;
+}
+
+#p3{
+    color: yellow;
 }
