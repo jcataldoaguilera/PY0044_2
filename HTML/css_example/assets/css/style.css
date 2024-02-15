@@ -1,0 +1,11 @@
+/* Estilo por etiqueta */
+/* todas las etiquetas se ven afectadas */
+p {
+    /* asignamos color al texto */
+    color: blue;
+}
+
+/* Estilo por clase (nombre con punto) */
+.pverde{
+    color: green;
+}
