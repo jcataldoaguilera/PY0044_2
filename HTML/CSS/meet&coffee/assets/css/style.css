@@ -1,0 +1,32 @@
+.barra{
+    top: 0px;
+    left: 0px;
+    height: 99px;
+    background: #000F08 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.barra li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 57px;
+    margin-top: 28px;
+}
+
+.barra a {
+    color: white;
+    text-decoration: none; /* quita el subrayado de los links*/
+    font-size: 25px;
+}
+
+.cabecera {
+    background: transparent url('../img/bg-hero.png') 0% 0% no-repeat padding-box;
+    height: 422px;
+    text-align: right;
+    color: white;
+    padding: 100px;
+}
+
+.wework{
+    text-align: center;
+}
