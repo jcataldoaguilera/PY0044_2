@@ -17,7 +17,7 @@
 .hijo{
     background-color: aliceblue;
     width: 40px;
-    height: 10px;
+    height: 40px;
     /* efecto optico de desplazamiento con respecto a los elementos que pueda encontrar */
     /* margin: top right bottom left; */
     /* margin: 100px 20px 30px 40px; */
@@ -30,8 +30,8 @@
 
 .hija{
     background-color: aqua;
-    width: 80px;
-    height: 10px;
+    width: 40px;
+    height: 40px;
     display: inline-block;
 }
 
