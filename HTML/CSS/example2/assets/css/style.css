@@ -1,15 +1,47 @@
-p{
-    color: purple;
+/* borrado de margenes */
+*{
+    margin: 0;
+    padding: 0;
 }
 
-#p2{
-    color: #ffdd00;
+body{
+    background-color: rgb(112, 102, 102);
+    background-image: url("../img/pizza-napolitana.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#p3{
+p {
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    /*alineacion del texto*/
+    background-color: bisque;
+}
+
+#p2 {
+    color: #719e2d;
+    /*hexadecimal*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    /*pendiente*/
+    /*1em = 16px*/
+}
+
+/*valor numerico del 0 al 255*/
+#p3 {
     color: rgb(234, 92, 215);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
 }
 
-#p4{
+/*por pocentaje del 0 al 100*/
+#p4 {
     color: rgb(25%, 25%, 50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
 }

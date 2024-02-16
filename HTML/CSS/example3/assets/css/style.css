@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0 solid black;
+}
+
+.padre{
+    background-color: darkblue;
+    width: 400px;
+    height: 400px;
+    /* desplaza los elementos hijos*/
+    padding: 10px;
+    /* establece un limite a elementos hijos*/
+    border: 1px solid #000;
+}
+
+.hijo{
+    background-color: aliceblue;
+    width: 40px;
+    height: 10px;
+    /* efecto optico de desplazamiento con respecto a los elementos que pueda encontrar */
+    /* margin: top right bottom left; */
+    /* margin: 100px 20px 30px 40px; */
+    /*margin-top: 100px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;*/
+    display: inline-block;
+}
+
+.hija{
+    background-color: aqua;
+    width: 80px;
+    height: 10px;
+    display: inline-block;
+}
+
+.hija2{
+    background-color: violet;
+    width: 200px;
+    height: 40px;    
+}
