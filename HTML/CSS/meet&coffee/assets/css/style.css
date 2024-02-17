@@ -1,3 +1,7 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
 .barra{
     top: 0px;
     left: 0px;
@@ -27,6 +31,61 @@
     padding: 100px;
 }
 
-.wework{
+.cabecera h1 {
+    font: normal normal 800 60px/82px Open Sans;
+    letter-spacing: 1.5px;
+}
+
+.cabecera h2 {
+    font: normal normal normal 4;
+}
+
+.wework {
+    margin-top: 60px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #000F08;
+    opacity: 1;
+}
+
+.wework h2 {
+    font: normal normal bold 45px/61px Open Sans;
+}
+
+.wework p {
+    font: normal normal normal 25px/34px Open Sans;
+}
+
+.speaker {
+    background-color: #A4452C;
+    opacity: 1;
+    display: inline-block;
+    top: 1351px;
+    left: 0px;
+    width: 1920px;
+    height: 501px;
     text-align: center;
 }
+
+.speaker img {
+    top: 1455px;
+    left: 513px;
+    width: 312px;
+    height: 294px;
+    margin-top: 104px;
+}
+
+.texto {
+    display: inline-block;
+    text-align: left;
+    color: white;
+}
+
+.texto h3 {
+    font: normal normal bold 45px/61px Open Sans;
+}
+
+.texto h4 {
+    font: normal normal bold 40px/55px Open Sans;
+}
+
