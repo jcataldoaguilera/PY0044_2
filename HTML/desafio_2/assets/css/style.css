@@ -1,0 +1,38 @@
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    width: 1280px;
+    background: #000000;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.desc-section {
+    height: 348px;
+    display: inline-flex;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.text {
+    width: 475px;
+    margin: 76px 120px 75px 120px;
+}
+
+.desc-section img {
+    margin-top: 45px;
+    width: 399px;
+    height: 237px;
+    text-align: right;
+}
