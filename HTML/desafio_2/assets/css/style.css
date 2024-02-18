@@ -16,29 +16,58 @@ body * {
 
 .desc-section {
     display: inline-flex;
-    color: #ffffff;
     font-size: 16px;
     font-weight: 300;
 }
 
-.text {
+#text {
     width: 475px;
     margin: 76px 120px 75px 120px;
+    color: #ffffff;
 }
 
 .desc-section img {
-    margin-top: 45px;
+    margin: 45px 0 66px 0;
     width: 399px;
     height: 237px;
     text-align: right;
 }
 
-#pie p {
+
+
+.fotos * {
+    display: inline-block;
+    width: 316px;
+    height: 202px;
+}
+
+#iguana-2 {
+    padding: 72px 0 72px 0;
+    margin-left: 150px;
+}
+
+#iguana-3 {
+    padding: 72px 0 72px 0;
+    margin-left: 16px;
+}
+
+#iguana-4 {
+    padding: 72px 0 72px 0;
+    margin-left: 16px;
+}
+
+#pie {
     height: 102px;
+    display: inline-block;
     background: #1E1A13;
+    opacity: 0.94;
+}
+
+#pie p {
+    background: #1E1A13;
+    margin-top: 39px;
     color: #ffffff;
     text-align: center;
     font-size: 20px;
     font-weight: 300;
-    margin-top: 39px;
 }
