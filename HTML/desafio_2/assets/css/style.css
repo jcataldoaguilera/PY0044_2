@@ -33,7 +33,79 @@ body * {
     text-align: right;
 }
 
+#icons-section * {
+    display: inline-block;
+    background: #1E1A13;
+}
 
+#icons-section h2 {
+    padding-top: 75px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+}
+
+#icono1 {
+    width: auto;
+}
+
+#icono1 img {
+    width: 57px;
+    height: 37px;
+    padding-top: 50px;
+    margin-left: 326px;
+}
+
+#icono1 h3 {
+    width: 128px;
+    padding: 16px 0 74px 0;
+    margin-left: 301px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+#icono2 {
+    width: auto;
+}
+
+#icono2 img {
+    width: 57px;
+    height: 37px;
+    padding-top: 50px;
+    margin-left: 220px;
+}
+
+#icono2 h3 {
+    width: 98px;
+    padding: 16px 0 74px 0;
+    margin-left: 199px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+#icono3 {
+    width: auto;
+}
+
+#icono3 img {
+    width: 57px;
+    height: 37px;
+    padding: 50px 241px 0 0;
+    margin-left: 255px;
+}
+
+#icono3 h3 {
+    width: 202px;
+    padding: 16px 0 74px 0;
+    margin-left: 175px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    background: #1E1A13;
+}
 
 .fotos * {
     display: inline-block;
