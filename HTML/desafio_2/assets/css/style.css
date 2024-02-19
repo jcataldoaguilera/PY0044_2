@@ -143,3 +143,28 @@ body * {
     font-size: 20px;
     font-weight: 300;
 }
+
+#pie a {
+    background: #1E1A13;
+    margin-top: 39px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#pie a:link {
+    text-decoration: none;
+}
+
+#pie a:visited {
+    text-decoration: none;
+}
+
+#pie a:hover {
+    text-decoration: none;
+}
+
+#pie a:active {
+    text-decoration: none;
+}
