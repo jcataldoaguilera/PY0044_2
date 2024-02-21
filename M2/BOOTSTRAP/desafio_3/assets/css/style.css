@@ -1,0 +1,44 @@
+.body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.container-fluid img {
+    width: 132px;
+    height: 53px;
+}
+
+.navbar {
+    background-color: #E83E8C !important;
+    color: #ffffff !important;
+}
+
+.container h1 {
+    text-align: center;
+    color: #707070;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.btn {
+    color: #1C7CD5;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer {
+    background: #E83E8C;
+    color: #ffffff;
+    height: 184px;
+}
+
+.footer img {
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 50%;
+    margin-top: 15%;
+    width: 36px;
+    height: 68px;
+}
