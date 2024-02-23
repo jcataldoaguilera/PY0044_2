@@ -3,12 +3,26 @@ body * {
     font-weight: 300;
 }
 
+.bg-success {
+    background: #28A745 !important;
+}
+
 .container-fluid img {
     width: 86px;
     height: 25px;
 }
 
-.card {
+footer img {
+    width: 86px;
+    height: 25px;
+}
+
+.card-loc img {
+    width: 6px;
+    height: 9px;
+}
+
+.padding {
     padding-top: 5em;
 }
 
@@ -22,21 +36,17 @@ body * {
     font-size: 13px;
 }
 
-.card-loc img {
-    width: 6px;
-    height: 9px;
-}
-
 .normal {
-    text-align: right;
     color: #707070;
     font-size: 16px;
-    margin-right: 1em;
 }
 
 .oferta {
-    text-align: right;
     color: #28A745;
     font-size: 20px;
-    font-weight: 500;
+}
+
+footer p {
+    color: #707070;
+    font-size: 16px;
 }
