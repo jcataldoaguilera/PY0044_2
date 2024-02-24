@@ -1,3 +1,24 @@
-.navbar-brand {
-    color: #ffffff;
+body * {
+    font-family: "Raleway", sans-serif;
+    font-weight: normal;
+}
+
+.bg-olivia {
+    background: #373A3C;
+}
+
+header {
+    background: transparent url('../img/bg-hero.jpg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 608px;
+    background-position-x: left;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 16px;
 }
