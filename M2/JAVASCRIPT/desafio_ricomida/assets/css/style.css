@@ -1,0 +1,25 @@
+body * {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.logo {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.bg-ricomida {
+    background: #373A3C !important;
+}
+
+#sub {
+    height: 534px;
+    background: #DC3545;
+}
+
+footer {
+    height: 125px;
+}
