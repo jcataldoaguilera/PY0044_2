@@ -15,7 +15,7 @@ body * {
     background: #373A3C !important;
 }
 
-.text-ricomida{
+.text-ricomida {
     color: #373A3C;
 }
 
@@ -39,4 +39,9 @@ footer {
 
 footer h1 {
     padding-top: 45px;
+}
+
+.carousel-item img {
+    width: 223px;
+    height: 170px;
 }
