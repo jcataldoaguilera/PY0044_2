@@ -42,6 +42,6 @@ footer h1 {
 }
 
 .carousel-item img {
-    width: 223px;
-    height: 170px;
+    max-width: 223px;
+    max-height: 170px;
 }
