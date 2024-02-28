@@ -19,11 +19,18 @@ body * {
     color: #373A3C;
 }
 
-
 #sub {
     height: 534px;
     background: #DC3545;
     padding-top: 210px;
+}
+
+#itr * {
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
 }
 
 footer {
