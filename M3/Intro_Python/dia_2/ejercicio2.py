@@ -26,3 +26,15 @@ print("Hola {}, el año es {} del mes {} y el día {}".format(name, year, month,
 
 # interpolacion con % ($s para str y %d para int)
 print("Hola %s, el año es %s del mes %d y el día %d" %(name, year, month, day))
+
+# .count sirve para contar cuentas veces se encuentra un caracter en un str
+print("Santana".count("a"))
+print(name.count("i"))
+
+# upper & lower
+print(name.upper()) # devuelve una copia de la str o var en MAYUSCULAS
+print(name.lower()) # devuelve una copia de la str o var en minusculas
+
+# title
+print("saNtANa".title()) # devuelve una copia de la str o var con la primera letra en Mayuscula (Santana)
+
