@@ -32,9 +32,13 @@ print("Santana".count("a"))
 print(name.count("i"))
 
 # upper & lower
-print(name.upper()) # devuelve una copia de la str o var en MAYUSCULAS
-print(name.lower()) # devuelve una copia de la str o var en minusculas
+print(name.upper()) # devuelve una copia de la str en MAYUSCULAS
+print(name.lower()) # devuelve una copia de la str en minusculas
 
 # title
-print("saNtANa".title()) # devuelve una copia de la str o var con la primera letra en Mayuscula (Santana)
+print("saNtANa".title()) # devuelve una copia de la str con la primera letra en Mayuscula (Santana)
 
+# funcion len
+print(len(name)) # devuelve la cantidad de caracteres de una str
+
+# funcion 
