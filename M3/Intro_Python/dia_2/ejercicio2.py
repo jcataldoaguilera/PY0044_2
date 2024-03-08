@@ -23,3 +23,6 @@ print(f"Hola {name}, el año es {year} del mes {month} y el día {day}")
 print("".format())
 
 print("Hola {}, el año es {} del mes {} y el día {}".format(name, year, month, day))
+
+# interpolacion con % ($s para str y %d para int)
+print("Hola %s, el año es %s del mes %d y el día %d" %(name, year, month, day))
