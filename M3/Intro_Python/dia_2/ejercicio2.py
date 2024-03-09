@@ -38,7 +38,36 @@ print(name.lower()) # devuelve una copia de la str en minusculas
 # title
 print("saNtANa".title()) # devuelve una copia de la str con la primera letra en Mayuscula (Santana)
 
-# funcion len
+# funcion len()
 print(len(name)) # devuelve la cantidad de caracteres de una str
+#print(len(month)) # no funciona sobre datos int
 
-# funcion 
+# join() permite unir muchos elementos separados en un str
+print(", ".join(["a", "b", "c"]))
+
+# imprimir en varias lineas (\n)
+print("mostrar \nsalto \nde \nlinea")
+
+# tipos de datos
+peso = 88.5
+verdadero = True
+
+print(type(name))   # str
+print(type(month))  # int
+print(type(year))   # str
+print(type(peso))   # float
+print(type(verdadero))   # bool
+
+type(verdadero) # esto no imprime el tipo de dato
+
+# manipulacion de variables
+numero = 2
+numero = numero + 3 # numero = 2 + 3
+
+# precision de datos
+print(f"el resultado de la division: {5/9:.2f}")
+print("el resultado de la division:", round(5/9,3))
+
+# ingresando datos
+nombre = input("Ingrese su nombre: ")
+print("Su nombre es: ", nombre)
