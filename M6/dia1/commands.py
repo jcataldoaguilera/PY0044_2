@@ -7,6 +7,6 @@ instalamos django
 creamos nuevo proyecto django
     django-admin startproject mysite
     python manage.py startapp polls
-    python myfirstapp\manage.py runserver
+    python manage.py runserver
 
 '''
