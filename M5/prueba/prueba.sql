@@ -104,32 +104,14 @@ add constraint respuestas_usuario_id_fkey
     references usuarios(id) 
     on delete cascade;
 
-\d respuestas
-
-select *
-from respuestas
-left join usuarios
-    on respuestas.usuario_id = usuarios.id;
-
-delete from usuarios where nombre = 'Valentina';
-
-select *
-from respuestas
-left join usuarios
-    on respuestas.usuario_id = usuarios.id;
-
 /* 9. Crea una restricción que impida insertar usuarios menores de 18 años en la base de datos. (1 punto) 
  */
 
 alter table usuarios
 add check (edad>=18); 
 
-\d usuarios
-
 /* 10. Altera la tabla existente de usuarios agregando el campo email con la restricción de único. (1 punto) 
  */
 
 alter table usuarios
 add email varchar(255) unique;
-
-\d usuarios
