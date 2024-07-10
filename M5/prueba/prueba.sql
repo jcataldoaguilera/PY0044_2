@@ -1,9 +1,6 @@
 
 /* Prueba - Fundamentos de bases de datos relacionales 
 
-Requerimientos 
-Dado el siguiente modelo: 
-
 1. Crea el modelo (revisa bien cuál es el tipo de relación antes de crearlo), respeta las claves primarias, foráneas y tipos de datos. 
 (1 punto)  */
 
