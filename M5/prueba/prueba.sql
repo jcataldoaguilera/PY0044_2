@@ -27,7 +27,7 @@ insert into tags (tag) values ('Comedy');
 
 insert into peliculas_tag values (1, 2);
 insert into peliculas_tag values (1, 3);
-insert into peliculas_tag values (1, 3);
+insert into peliculas_tag values (1, 4);
 insert into peliculas_tag values (2, 1);
 insert into peliculas_tag values (2, 3);
 
