@@ -1,3 +1,4 @@
+from django.db import models
 from .models import Tarea, SubTarea
 
 def recupera_tareas_y_sub_tareas():
@@ -29,8 +30,17 @@ def elimina_tarea(tid):
     tarea.save()
     return recupera_tareas_y_sub_tareas()
 
-def elimina_sub_tarea():
-    pass
+def elimina_sub_tarea(stid):
+    sub_tarea = SubTarea.objects.get(pk=stid)
+    sub_tarea.eliminada= True
+    sub_tarea.save()
+    return recupera_tareas_y_sub_tareas()
 
-def imprimir_en_pantalla():
-    pass
+def imprimir_en_pantalla(tareas_y_subtareas):
+    for tarea_info in tareas_y_subtareas:
+        tarea = tarea_info['tarea']
+        subtareas = tarea_info['subtareas']
+        print(f"[{tarea.id}] {tarea.descripcion}")
+        
+        for subtarea in subtareas:
+            print(f"...... [{subtarea.id}] {subtarea.descripcion}")
