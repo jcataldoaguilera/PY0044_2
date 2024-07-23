@@ -104,6 +104,9 @@ add constraint respuestas_usuario_id_fkey
     references usuarios(id) 
     on delete cascade;
 
+delete from usuarios where id = 1;
+select * from respuestas;
+
 /* 9. Crea una restricción que impida insertar usuarios menores de 18 años en la base de datos. (1 punto) 
  */
 
